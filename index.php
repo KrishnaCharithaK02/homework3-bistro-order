@@ -37,9 +37,7 @@ require "order_functions.php";
       <label> <input type="radio" name="drinkSize" value="Large" <?= drinkSizeSelected("Large"); ?>> Large </label>
       <br>
       <button type="submit">Send to Kitchen 👩‍🍳</button>
-      <br></br>
       <a class="click" href="index.php">Order Again 🔄️</a>
-      <br></br>
       <a class="click" href="forget_order.php">Forget Order 🗑️</a>
    </form>
 
