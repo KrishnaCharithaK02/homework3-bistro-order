@@ -1,0 +1,120 @@
+/* yellow background: rgb(249, 213, 80)
+heading brown: #6b3e26
+buttercream bliss: #fff8bf
+*/
+/* css for index.php*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 213, 80);
+    margin: 35px;
+    color: rgb(41, 40, 40);
+}
+
+h1 {
+    text-align: center;
+    color: #6b3e26;
+}
+h2 {
+    color: #6b3e26;
+}
+
+form {
+    background: #fff8bf;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 25px auto;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border-color: #42281a;
+    text-align: center;
+}
+
+.insight-card{
+    background: #fff8bf;
+    margin: 25px auto;
+    max-width: 700px;
+    padding: 25px;
+    border-radius: 10px;
+    border-color: #42281a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-family:'Times New Roman', Times, serif;
+}
+.insight-note {
+    color: #464331;
+    font-family: cursive;
+}
+
+select {
+    width: 250px;
+    border: 2px solid #42281a;
+    background: #eeeeee;
+    padding: 8px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+select:hover, select:focus {
+    background: white;
+}
+option {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    border: #42281a;
+    background: #eeeeee;
+    padding: 3px;
+    transition: 0.4s;
+}
+label {
+    margin-right: 20px;
+}
+button {
+    background-color: #6b3e26;
+    border: 2px solid #42281a;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.click {
+    text-decoration: none;
+    background: #6b3e26;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.click:hover{
+    text-decoration: underline;
+}
+
+/* css for process_oerder.php*/
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.price-figure {
+    font-size: 35px;
+    font-weight: bold;
+    color: #644a3a;
+}
+
+.receipt-card {
+    background: #fff8bf;
+    border: 2px solid #42281a;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.full-width-note{
+    grid-column: 1 / -1;
+    margin-top: 15px;
+}
